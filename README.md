@@ -19,7 +19,7 @@ Because i have not hosted it so follow me 👇🏻
       
               node index.js.   
 
-  *this command will start the local server *
+  *this command will start the local server*
 
 Now you can see the Web application at your browser by going into : http://localhost:3000/
 
