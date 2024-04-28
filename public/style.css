@@ -1,0 +1,47 @@
+.welcome{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.viewpost, .deletePost{
+    border: 0;
+    background: #00bf00;
+    border-radius: 8px;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem;
+}
+.deletePost{
+    background: red;
+}
+.Createpost,.editPost{
+    border: 0;
+    background: #00bf9f;
+    border-radius: 8px;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem;
+
+}
+
+.Createpost a, .viewpost a, .deletePost a, .editPost a {
+    text-decoration: none;
+    color: #fafafd;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content{
+    overflow: hidden;
+    height: 6rem;
+}
+
+#home-nav, #about-nav{
+    color: black;
+}

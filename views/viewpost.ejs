@@ -1,0 +1,17 @@
+<%- include('partials/header.ejs') %>
+<div class="container overflow-scroll overflow-x-hidden" style="height: 60vh">
+  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="col-lg-11 px-0">
+      <h1 class="display-6 fst-italic"><%= viewPost.title %></h1>
+      <p class="lead my-3"><%= viewPost.content %></p>
+      <h6 class="fst-italic">by <%= viewPost.author %></h6>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="buttons">
+    <!-- <button class="editPost"><a href="#">Edit Post</a></button> -->
+    <button class="deletePost"><a href="/delete<%= viewPost.id %>">Delete Post</a></button>
+  </div>
+</div>
+<%- include('partials/footer.ejs') %>
