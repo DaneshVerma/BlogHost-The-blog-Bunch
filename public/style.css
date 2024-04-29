@@ -7,17 +7,15 @@
     gap: 0.5rem;
 }
 
-.viewpost, .deletePost{
+.viewpost {
     border: 0;
     background: #00bf00;
     border-radius: 8px;
     padding: 0.5rem 0.5rem;
     margin: 1rem;
 }
-.deletePost{
-    background: red;
-}
-.Createpost,.editPost{
+
+.Createpost,.back{
     border: 0;
     background: #00bf9f;
     border-radius: 8px;
@@ -26,7 +24,7 @@
 
 }
 
-.Createpost a, .viewpost a, .deletePost a, .editPost a {
+.Createpost a, .viewpost a, .back a, .editPost a {
     text-decoration: none;
     color: #fafafd;
 }
