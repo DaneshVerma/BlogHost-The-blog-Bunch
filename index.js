@@ -50,13 +50,13 @@ app.get("/posts", (req, res)=>{
 })
 
 
-app.get("/delete:id", (req, res)=>{ 
-    var postId = parseInt(req.params.id) // getting post id from URL
-    var delPost = post.findIndex(post=>{postId === post.id}) // find the index of the post by id
-    post.splice(delPost,1)
-    fs.writeFileSync("data.json", JSON.stringify(post))
-    res.render("index.ejs", { year: currentYear})
-})
+// app.get("/delete:id", (req, res)=>{ 
+//     var postId = parseInt(req.params.id) // getting post id from URL
+//     var delPost = post.findIndex(post=>{postId === post.id}) // find the index of the post by id
+//     post.splice(delPost,1)
+//     fs.writeFileSync("data.json", JSON.stringify(post))
+//     res.render("index.ejs", { year: currentYear})
+// })
 
 app.get("/about", (req, res)=>{
     res.render("about.ejs", { year: currentYear})
