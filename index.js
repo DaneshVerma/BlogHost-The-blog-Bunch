@@ -25,8 +25,6 @@ app.post('/', (req, res)=>{
         content : req.body.content
     }
     post.push(newdata)
-    console.log(post)
-    console.log(typeof(req.body.id))
     fs.writeFileSync("data.json", JSON.stringify(post))
     res.render("allpost.ejs", {post : post,
         year: currentYear})
