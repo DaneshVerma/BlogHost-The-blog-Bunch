@@ -7,4 +7,4 @@ its live here👇🏻
 https://bloghost-3ehk.onrender.com/
 
 
-**And that's it. thank's for having a look here ⭐**  
+**And that's it. thank's for having a look here ⭐**    
